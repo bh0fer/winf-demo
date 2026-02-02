@@ -1,101 +1,35 @@
-<!DOCTYPE html>
 <html>
-
 <head>
-    <title>Lieblingsrezept Glacé</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Badeen+Display&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" data-rh="true">
-    <style>
-        body {
-            font-family: "Playwrite HU", cursive;
-            background: rgb(0, 60, 47);
-            color: rgb(250, 244, 214);
-            
-            max-width: 750px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        main {
-            padding: 12px;
-            border: 5px solid rgb(0, 68, 68);
-            margin: 20px;
-            border-radius: 15px;
-        }
-
-        h1,
-        h2 {
-            text-align: center;
-        }
-
-        img {
-            display: block;
-            border-radius: 8px;
-            max-width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        li {
-            margin-bottom: 10px;
-            cursor: pointer;
-            transition: all;
-            transition-duration: 1s;
-        }
-
-        li:hover {
-            color: yellow;
-            transform: scale(120%);
-        }
-
-        a {
-            color: wheat;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
-
-<body class="zentriert">
-    <main>
-        <h1>Glacé</h1>
-        <p>
-            Ein leckeres Rezept für Schokoladenglacé!
-        </p>
-        <img width="300px" src="bilder/feine-glace.jpg" class="zentriert">
-        <h2 class="highlight">Zutaten</h2>
-        <ul>
-            <li>500 ml Milch</li>
-            <li>150 g Zucker</li>
-            <li class="highlight">4 Eigelb</li>
-            <li>100 g dunkle Schokolade, gehackt</li>
-            <li>1 TL Vanilleextrakt</li>
-        </ul>
-        <h2>Zubereitung</h2>
-        <ol>
-            <li>Milch und Zucker in einem Topf erwärmen, bis der Zucker sich aufgelöst hat. Vom Herd nehmen.</li>
-            <li>Eigelbe in einer Schüssel verrühren. Die warme Milch-Zucker-Mischung unter ständigem Rühren langsam zu
-                den
-                Eiern gießen.</li>
-            <li>Die Masse zurück in den Topf geben und unter ständigem Rühren erhitzen, bis sie leicht andickt (80°C).
-                <b>Nicht kochen lassen!</b>
-            </li>
-            <li>Vom Herd nehmen und die gehackte Schokolade und den Vanilleextrakt unterrühren, bis die Schokolade
-                geschmolzen ist.</li>
-            <li>Die Masse in eine Eismaschine geben und gemäß Herstellerangaben gefrieren lassen, bis die Konsistenz
-                cremig
-                ist.</li>
-            <li>Das fertige Eis in einen Behälter füllen und für <b>mindestens 2 Stunden</b> im Gefrierfach durchfrieren
-                lassen.</li>
-        </ol>
-        <p>
-            Fertig ist das leckere <b>Schokoladenglacé</b> 🧁🚀🥳! Es lässt sich gut mit frischen Früchten, Sahne oder
-            gerösteten Nüssen servieren.
-        </p>
-        <p>
-            <a href="https://pxhere.com/fr/photo/552467">Bildquelle</a>
-        </p>
-    </main>
+<body class="bg-light p-1 pt-4 pb-4">
+<div class="card shadow-sm">
+    <div class="row g-0 align-items-center ps-1 shadow">
+      <div class="col-auto">
+        <img src="https://randomuser.me/api/portraits/women/48.jpg" class="img-fluid rounded" alt="Maria Grünfelder">
+      </div>
+      <div class="col">
+        <div class="card-body">
+          <h5 class="card-title mb-2">Maria Grünfelder</h5>
+          <address class="mb-0 text-secondary">
+            <div>
+                <i class="bi bi-envelope pe-1"></i>
+                maria.gruenfelder@email.com
+            </div>
+            <div>
+                <i class="bi bi-geo pe-1"></i>
+                Biel, Schweiz
+            </div>
+            <div>
+                <i class="bi bi-telephone pe-1"></i>
+                +41 32 123 4567
+            </div>
+          </address>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+</html>
